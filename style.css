@@ -1,0 +1,88 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: rgb(20, 2, 44);
+    position: relative;
+}
+.box-container
+{
+    height: 400px;
+    width: 800px;
+    background-color:#280e38;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:200px;
+    left:350px;
+}
+#text-container
+{
+    height: 400px;
+    width: 400px;
+}
+#heading-1
+{
+    color:white;
+    font-size: 30px;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+span
+{
+    color:#511281;
+}
+.box-container p{
+    color:white;
+    font-size: 16px;
+    padding: 30px;
+}
+#contain
+{
+    height: 159px;
+    width:400px;
+    
+    display:flex;
+}
+#companies
+{
+    color: white;
+    width: 10%;  
+    padding: 35px; 
+}
+#templates
+{
+    color: white;
+    width: 10%;
+    padding: 35px; 
+}
+#queries
+{
+    color: white;
+    width: 10%;   
+    padding: 35px; 
+}
+.image-container
+{
+    height: 400px;
+    width: 400px;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position:cover;
+    background-size: 400px 400px;
+}
+.layer
+{
+    background-color: rgba(114, 113, 161, 0.7);
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;   
+}
